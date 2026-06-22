@@ -2,6 +2,7 @@
  (name sexplib)
  (libraries basement parsexp sexplib0)
  (public_name sexplib)
+ (flags (:standard -w -67))
  (preprocess no_preprocessing))
 
 (ocamllex lexer)
